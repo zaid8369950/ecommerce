@@ -27,23 +27,8 @@ This project aims to develop a robust and scalable REST API for an eCommerce pla
 - **Order History**:
   - Users should be able to view their order history.
 
-### 3. Carts
 
-- **Add/Remove Items**:
-  - Users can add or remove items from their cart.
-- **Cart Persistence**:
-  - Carts should persist across sessions for logged-in users.
-
-### 4. Authentication
-
-- **Sign Up**:
-  - New users should be able to create an account by providing necessary information.
-- **Sign In**:
-  - Registered users should be able to sign in securely using their credentials.
-- **Authentication Tokens**:
-  - Use JWT (JSON Web Tokens) for authentication and authorization.
-
-### 5. Miscellaneous
+### 4. Miscellaneous
 
 - **Validation**:
   - Input validation for all API endpoints.
@@ -74,19 +59,6 @@ This project aims to develop a robust and scalable REST API for an eCommerce pla
 - **PUT /api/orders/{orderId}**: Update an existing order.
 - **DELETE /api/orders/{orderId}**: Cancel an order.
 
-### 3. Carts
-
-- **POST /api/carts**: Create a new cart.
-- **GET /api/carts/{cartId}**: Retrieve a specific cart by ID.
-- **PUT /api/carts/{cartId}**: Update an existing cart.
-- **DELETE /api/carts/{cartId}**: Delete a cart.
-- **POST /api/carts/{cartId}/items**: Add an item to the cart.
-- **DELETE /api/carts/{cartId}/items/{itemId}**: Remove an item from the cart.
-
-### 4. Authentication
-
-- **POST /api/signup**: Create a new user account.
-- **POST /api/signin**: Sign in with existing user credentials.
 
 ## Getting Started
 
